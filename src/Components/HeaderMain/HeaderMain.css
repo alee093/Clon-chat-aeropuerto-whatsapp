@@ -1,0 +1,45 @@
+:root{
+    --background-color: #202c33;
+}
+
+.header-main{
+    min-width: 64px;
+    height: 100%;
+    background-color: var(--background-color);
+    border-right: 2px solid rgba(134, 150, 160, 0.15);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chats-canals-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-buttons{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #364147;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-buttons:hover{
+    cursor: pointer;
+}
+.header-button-icon{
+    color: #aebbc2;
+}
+.profile-settings-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-profile-icon{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}

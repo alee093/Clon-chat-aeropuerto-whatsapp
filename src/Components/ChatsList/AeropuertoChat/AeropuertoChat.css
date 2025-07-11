@@ -1,0 +1,62 @@
+.aeropuerto-chat-container{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 13px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.aeropuerto-chat-container:hover{
+    background-color: #202c33;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+.profile-image{
+    height: 49px;
+    width: 49px;
+    border-radius: 30px;
+}
+.message-time-container{
+    width: 100%;
+    height: 100%;
+    padding: 0 15px 0 0;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border-top: 1px solid #212c33;
+    border-bottom: 1px solid #212c33;
+}
+.name-time-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
+    align-items: end;
+}
+.name{
+    color: #E9EDEF;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.time{
+    color: #8696A0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.message{
+    color: #8696A0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    display: flex;
+    justify-content: start;
+}

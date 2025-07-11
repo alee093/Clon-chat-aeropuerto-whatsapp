@@ -1,0 +1,9 @@
+:root{
+    --background-color-chats-list: #111b21;
+}
+
+.chats-list{
+    height: 100dvh;
+    width: 32%;
+    background-color: var(--background-color-chats-list);
+}

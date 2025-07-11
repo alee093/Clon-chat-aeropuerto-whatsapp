@@ -1,0 +1,46 @@
+.sincronizacion-container{
+    width: 100%;
+    height: 109px;
+    background-color: #182229;
+    display: flex;
+    padding: 13px 12px 14px 13px;
+}
+.notification-icon{
+    cursor: pointer;
+}
+.title-sincronizacion{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #E9EDEF;
+    cursor: pointer;
+}
+.text-sincronizacion{
+    font-size: 14px;
+    color: #8696A0;
+    margin-top: 2px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+.eliminate-button{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+
+.notification-container{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eliminate-button-container{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}

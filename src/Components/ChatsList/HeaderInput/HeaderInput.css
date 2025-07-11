@@ -1,0 +1,71 @@
+.header-chat-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    padding: 0 10px 0 16px;
+}
+.title-chat-list{
+    font-size: 22px;
+    color: #e9edef;
+}
+.new-chat-menu-container{
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+
+.input-container-chat-list{
+    height: 35px;
+    margin: 0 12px;
+    border-radius: 8px;
+    background-color: #202c33;
+    padding: 0 12px;
+    margin-top: 4px;
+}
+.form-chat-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-submit-chat-list{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #8797a1;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+.input-chat-list{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #8797a1;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;    
+    padding-left: 35px;
+}
+.input-chat-list::placeholder{
+    color: #8797a1;
+}
+.todos-leidos-container{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 7px 16px 7px 12px;
+    flex-wrap: wrap;
+}
+.button-todos-leidos{
+    padding: 6px 12px;
+    color: #8797a1;
+    border-radius: 20px;
+    background-color: #202c33;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;;
+}
