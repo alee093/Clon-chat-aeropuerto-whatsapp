@@ -10,7 +10,7 @@ const ChatsList = () => {
         <div className='chats-list'>
             <HeaderInput />
             <Sincronizacion />
-            <AeropuertoChat />
+            <AeropuertoChat/>
         </div>
     )
 }

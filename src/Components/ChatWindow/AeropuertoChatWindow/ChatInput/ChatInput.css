@@ -1,0 +1,53 @@
+.chat-input-container{
+    height: 62px;
+    background-color: #202c33;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.plus-icon-container{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.aeropuerto-input-container{
+    width: 100%;
+    display: flex;
+}
+.chat-form{
+    width: 100%;
+    display: flex;
+    height: 42px;
+}
+.chat-input{
+    width: 100%;
+    background-color: #2a3942;
+    border: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 8px;
+    padding: 12px;
+}
+.chat-input::placeholder{
+    color: #7b8b94;
+}
+.send-button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    width: 40px;
+}
